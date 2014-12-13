@@ -7,7 +7,7 @@ import com.typesafe.sbt.SbtScalariform
 object typetalk4sBuild extends Build {
   val appName = "typetalk4s"
   val appOrganization = "com.github.daiksy"
-  val appVersion  = "0.1.0-SNAPSHOT"
+  val appVersion  = "0.2.0-SNAPSHOT"
   val appScalaVersion = "2.11.4"
   val skinnyVersion = "1.3.5"
 
