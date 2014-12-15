@@ -22,7 +22,8 @@ object typetalk4sBuild extends Build {
       libraryDependencies ++= Seq(
         "org.skinny-framework" %% "skinny-http-client" % skinnyVersion,
         "org.skinny-framework" %% "skinny-json"        % skinnyVersion,
-        "com.typesafe"         %  "config"             % "1.2.1"
+        "com.typesafe"         %  "config"             % "1.2.1",
+        "org.eclipse.jetty.websocket" % "websocket-client" % "9.2.6.v20141205"
       ) ++ testDependencies,
       resolvers ++= Seq(
         "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
